@@ -4,6 +4,8 @@ import './AboutUs.css'
 
 import aboutImage from './about.png'
 
+import CountUp from 'react-countup';
+
 const AboutUs = () => {
     return (
         <div className='about_container'>
@@ -24,21 +26,21 @@ const AboutUs = () => {
                     <div className='about_counter'>
                         <div className="single_counter_box">
                             <div className='single_counter'>
-                                <h2>15K</h2>
+                                <h2><CountUp delay={.5} duration={10} start={0} end={50} />K</h2>
                                 <p>Different Courses</p>
                             </div>
                             <div className='single_counter'>
-                                <h2>10M</h2>
+                                <h2><CountUp delay={.5} duration={10} start={0} end={100} />K</h2>
                                 <p>Running Students</p>
                             </div>
                         </div>
                         <div className="single_counter_box">
                             <div className='single_counter'>
-                                <h2>8k</h2>
+                                <h2><CountUp delay={.5} duration={10} start={0} end={2} />k</h2>
                                 <p>Course Instructor</p>
                             </div>
                             <div className='single_counter'>
-                                <h2>4k</h2>
+                                <h2><CountUp delay={.5} duration={10} start={0} end={4} />k</h2>
                                 <p>Support Trainer</p>
                             </div>
                         </div>
