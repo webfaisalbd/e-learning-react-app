@@ -64,7 +64,7 @@ header {
 
 .icon_color {
     color: var(--green-color);
-    /* border: 1px solid red; */
+    
 }
 
 
@@ -78,8 +78,10 @@ header {
     top: 80px;
     left: 0;
     right: 0;
-    /* border: 1px solid red; */
+    
     width: 100%;
+    background: #ffffff;
+
     height: calc(100vh - 80px);
 }
 
