@@ -1,0 +1,19 @@
+.courseNameContainer {
+    margin: 30px 0;
+}
+
+.course_box {
+    text-align: center;
+}
+
+.course_item svg {
+    width: 100px;
+    height: 100px;
+    
+    /* background: linear-gradient(to right, var(--green-color), blue); */
+    border-radius: 15px;
+    color: #0072b1;
+
+    padding: 20px;
+}
+
