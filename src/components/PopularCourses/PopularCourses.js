@@ -4,7 +4,7 @@ import './PopularCourses.css'
 import { BsBook, BsPeople, BsStarFill } from 'react-icons/bs';
 
 import courseData from '../../courseData/courseData';
-console.log(courseData);
+// console.log(courseData);
 
 const PopularCourses = () => {
   return (
@@ -23,7 +23,7 @@ const PopularCourses = () => {
           })
             .slice(0, 3)
             .map((singleCourse) => {
-              return <div className="single_card">
+              return <div key={singleCourse.id} className="single_card">
                 <div className="single_card_img">
                   <img src={singleCourse.imgUrl} alt="" />
                 </div>
