@@ -3,6 +3,7 @@ import AboutUs from './components/AboutUs/AboutUs';
 import CourseNameSlider from './components/CourseNameSlider/CourseNameSlider';
 import HeroSection from './components/HeroSection/HeroSection';
 import NavBar from './components/NavBar/NavBar';
+import PopularCourses from './components/PopularCourses/PopularCourses';
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
       <HeroSection />
       <CourseNameSlider />
       <AboutUs />
+      <PopularCourses />
     </div>
   );
 }
