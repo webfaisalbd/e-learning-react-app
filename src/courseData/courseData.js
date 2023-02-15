@@ -15,6 +15,7 @@ const coursesData = [
       students: 27.2,
       rating: 5.9,
       imgUrl: mern,
+      paymentType: 'paid',
     },
   
     {
@@ -24,6 +25,7 @@ const coursesData = [
       students: 25.1,
       rating: 4.9,
       imgUrl: ielts,
+      paymentType: 'paid',
     },
   
     {
@@ -33,6 +35,7 @@ const coursesData = [
       students: 7.5,
       rating: 4.5,
       imgUrl: machineLearning,
+      paymentType: 'unpaid',
     },
     
     {
@@ -42,6 +45,7 @@ const coursesData = [
         students: 20.7,
         rating: 5.2,
         imgUrl: digitalMarketing,
+        paymentType: 'paid',
       },
       
     {
@@ -51,6 +55,7 @@ const coursesData = [
         students: 12.5,
         rating: 4.1,
         imgUrl: drawing,
+        paymentType: 'unpaid',
       },
       
     {
@@ -60,6 +65,7 @@ const coursesData = [
         students: 9.8,
         rating: 3.9,
         imgUrl: financialAnalyst,
+        paymentType: 'unpaid',
       },
       
     {
@@ -69,6 +75,7 @@ const coursesData = [
         students: 8.5,
         rating: 4.7,
         imgUrl: businessLaw,
+        paymentType: 'unpaid',
       },
   ];
 

@@ -1,0 +1,94 @@
+:root {
+    --font-color: #0A2B1E;
+    --green-color: #17BF9E;
+    --white-color: #ffffff;
+    --black-color: #000000;
+    --linkedIn-color: #0072b1;
+}
+
+.freeCourses_container {
+    margin: 50px 0;
+}
+
+.freeCourses_container .freeCourses_heading h2 {
+    padding: 20px 0;
+    
+    text-align: center;
+    font-size: 32px;
+}
+
+.freeCourses_box {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+    gap: 30px;
+
+    /* border: 1px solid red; */
+}
+
+.freeCourses_item {
+    max-width: 100%;
+    padding: 5px;
+    /* border: 1px solid blue; */
+}
+
+.freeCourses_item .freeCourses_img img {
+    width: 100%;
+    border-radius: 15px;
+}
+
+.freeCourses_content .course_title {
+    margin: 15px 0;
+    font-size: 14px;
+
+    padding-bottom: 1px;
+    padding-left: 3px;
+    border-bottom: 1px solid lightgray;
+    border-left: 1px solid lightgray;
+}
+
+.icons_box {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+
+.icons_pair {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    /* border: 1px solid black; */
+
+    margin: 10px 0;
+}
+
+.icon_style {
+    margin-top: 4px;
+    color: var(--green-color);
+}
+
+.freeCourses_item .freeCourses_img {
+    position: relative;
+}
+
+.free_btn {
+    background: var(--green-color);
+    color: var(--white-color);
+
+    padding: 7px 20px;
+
+    outline: none;
+    border: none;
+
+    border-radius: 15px;
+
+    position: absolute;
+    right: 6%;
+    bottom: -6%;
+
+    cursor: pointer;
+}
+
+.free_btn:hover {
+    background: var(--linkedIn-color);
+}

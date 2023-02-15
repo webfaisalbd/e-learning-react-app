@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 import './ChooseUs.js.css'
 
-import { AiFillPlayCircle } from 'react-icons/ai'
+import { AiFillYoutube } from 'react-icons/ai'
 
 import chooseUs from './chooseUs.png';
 
@@ -29,7 +29,7 @@ const ChooseUs = () => {
                 }
                 <div className='player_btn'>
                     {
-                        !play && <AiFillPlayCircle className='player' onClick={() => setPlay(!play)} />
+                        !play && <AiFillYoutube className='player' onClick={() => setPlay(!play)} />
                     }
                 </div>
             </div>
