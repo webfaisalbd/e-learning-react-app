@@ -1,5 +1,8 @@
 .courseNameContainer {
     margin: 30px 0;
+
+    height: 150px;
+    /* border: 1px solid blue; */
 }
 
 .course_box {
@@ -9,7 +12,7 @@
 .course_item svg {
     width: 100px;
     height: 100px;
-    
+
     /* background: linear-gradient(to right, var(--green-color), blue); */
     border-radius: 15px;
     color: #0072b1;
@@ -17,3 +20,11 @@
     padding: 20px;
 }
 
+@media (max-width: 500px) {
+    .courseNameContainer {
+        margin: 30px auto;
+        max-width: 370px;
+
+        /* border: 1px solid red; */
+    }
+}

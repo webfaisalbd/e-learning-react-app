@@ -9,9 +9,6 @@ import coursesData from '../../courseData/courseData';
 const FreeCourses = () => {
     return (
         <div className='freeCourses_container'>
-            <div className="freeCourses_heading">
-                <h2>Our Free Courses</h2>
-            </div>
             <div className="freeCourses_box">
                 {
                     coursesData.filter((course) => {
