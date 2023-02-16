@@ -7,6 +7,7 @@ import FreeCourses from './components/FreeCourses/FreeCourses';
 import HeroSection from './components/HeroSection/HeroSection';
 import NavBar from './components/NavBar/NavBar';
 import PopularCourses from './components/PopularCourses/PopularCourses';
+import Testimonial from './components/Testimonial/Testimonial';
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
       <ChooseUs />
       <Features />
       <FreeCourses />
+      <Testimonial />
     </div>
   );
 }
