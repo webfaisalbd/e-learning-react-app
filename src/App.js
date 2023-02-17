@@ -9,20 +9,24 @@ import NavBar from './components/NavBar/NavBar';
 import Newsletter from './components/Newsletter/Newsletter';
 import PopularCourses from './components/PopularCourses/PopularCourses';
 import Testimonial from './components/Testimonial/Testimonial';
+import Footer from './components/Footer/Footer';
 
 function App() {
   return (
-    <div className='container'>
-      <NavBar />
-      <HeroSection />
-      <CourseNameSlider />
-      <AboutUs />
-      <PopularCourses />
-      <ChooseUs />
-      <Features />
-      <FreeCourses />
-      <Testimonial />
-      <Newsletter />
+    <div>
+      <div className='container'>
+        <NavBar />
+        <HeroSection />
+        <CourseNameSlider />
+        <AboutUs />
+        <PopularCourses />
+        <ChooseUs />
+        <Features />
+        <FreeCourses />
+        <Testimonial />
+        <Newsletter />
+      </div>
+      <Footer />
     </div>
   );
 }
