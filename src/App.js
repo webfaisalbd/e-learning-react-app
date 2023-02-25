@@ -1,32 +1,22 @@
 import './App.css';
-import AboutUs from './components/AboutUs/AboutUs';
-import ChooseUs from './components/ChooseUs/ChooseUs';
-import CourseNameSlider from './components/CourseNameSlider/CourseNameSlider';
-import Features from './components/Features/Features';
-import FreeCourses from './components/FreeCourses/FreeCourses';
-import HeroSection from './components/HeroSection/HeroSection';
 import NavBar from './components/NavBar/NavBar';
-import Newsletter from './components/Newsletter/Newsletter';
-import PopularCourses from './components/PopularCourses/PopularCourses';
-import Testimonial from './components/Testimonial/Testimonial';
-import Footer from './components/Footer/Footer';
+import { BrowserRouter, Route, Routes } from 'react-router-dom';
+import AllCourses from './components/AllCourses/AllCourses';
+import Home from './components/Home/Home';
 
 function App() {
   return (
     <div>
-      <div className='container'>
+      <BrowserRouter>
+      
         <NavBar />
-        <HeroSection />
-        <CourseNameSlider />
-        <AboutUs />
-        <PopularCourses />
-        <ChooseUs />
-        <Features />
-        <FreeCourses />
-        <Testimonial />
-        <Newsletter />
-      </div>
-      <Footer />
+
+        <Routes>
+          <Route path='/' element={<Home />}></Route>
+          <Route path='/allCourses' element={<AllCourses />}></Route>
+        </Routes>
+
+      </BrowserRouter>
     </div>
   );
 }

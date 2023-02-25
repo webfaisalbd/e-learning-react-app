@@ -4,16 +4,22 @@ import './PopularCourses.css'
 import { BsBook, BsPeople, BsStarFill } from 'react-icons/bs';
 
 import courseData from '../../courseData/courseData';
+import { useNavigate } from 'react-router-dom';
 // console.log(courseData);
 
 const PopularCourses = () => {
+
+  const myNavigate = useNavigate();
+
   return (
     <div className='popular_courses_container'>
       <div className="popular_courses_content">
         <h2>Our Popular Courses</h2>
         <div className="popular_courses_sub_content">
           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae consequatur libero quod voluptatibus ullam quia quas, vitae voluptatem recusandae reprehenderit!</p>
-          <button className='btn'>See All</button>
+          <button onClick={()=> {
+            myNavigate('/allCourses');
+          }} className='btn'>See All</button>
         </div>
       </div>
       <div className="popular_courses_card_box">

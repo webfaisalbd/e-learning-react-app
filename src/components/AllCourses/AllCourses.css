@@ -1,0 +1,112 @@
+:root {
+    --font-color: #0A2B1E;
+    --green-color: #17BF9E;
+    --white-color: #ffffff;
+    --black-color: #000000;
+    --linkedIn-color: #0072b1;
+}
+
+.allCourses_container {
+    /* background: lightblue; */
+    padding: 0 70px;
+}
+
+.allCourses_heading h2 {
+    margin: 30px 0;
+    font-size: 32px;
+}
+
+.allCourses_box {
+    padding: 30px 0;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+.allCourses_box .single_card {
+    width: 350px;
+    /* border: 1px solid black; */
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    padding: 10px;
+    border-radius: 25px;
+}
+
+.allCourses_box .single_card .single_card_img {
+    margin-bottom: 20px;
+}
+
+.allCourses_box .single_card .single_card_img img {
+    width: 100%;
+    border-radius: 25px;
+}
+
+.course_title {
+    font-weight: 600;
+    letter-spacing: 1.5px;
+}
+
+.course_descripton {
+    margin: 30px 0 0 0;
+}
+
+.course_description_box {
+    display: flex;
+    justify-content: space-between;
+
+    margin-top: 15px;
+}
+
+.lesson_student {
+    display: flex;
+    gap: 5px;
+
+    align-items: center;
+    font-size: 14px;
+}
+
+.icon {
+    margin-top: 5px;
+    color: var(--green-color);
+}
+
+.enroll {
+    color: var(--green-color);
+    cursor: pointer;
+}
+.enroll:hover {
+    color: goldenrod;
+}
+
+
+.active {
+    background: var(--linkedIn-color);
+}
+
+button {
+    padding: 10px 25px;
+    margin: 2px 5px;
+
+    color: var(--white-color);
+    background: var(--green-color);
+
+    border: none;
+    outline: none;
+
+    border-radius: 10px;
+
+    cursor: pointer;
+}
+
+button:disabled {
+    background: #dddddd;
+}
+
+.pagination {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
